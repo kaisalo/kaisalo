@@ -9,4 +9,13 @@ public class AppTest {
         App classUnderTest = new App();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
+	@Test
+    public void dummyUnitTest1() {
+        assertEquals(0, 1);
+    }
+	@Test
+    public void dummyUnitTest2() {
+        assertEquals(0, 0);
+    }
+
 }
